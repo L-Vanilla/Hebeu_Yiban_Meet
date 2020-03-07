@@ -1,0 +1,352 @@
+﻿.home{
+    margin: 1rem ;
+    padding-bottom:1rem;
+}
+
+.home_title{
+    font-size:23px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.home_commend{
+    width: 100%;
+   /*margin-top: 1rem; */
+}
+.content{
+    margin: 0 1rem 1rem 1rem;
+}
+.home_content1{
+    padding-top: 1rem;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.home_content2{
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgba(66,66,91,1);
+    font-weight:bold;
+}
+.number{
+    font-size: 18px;
+    float: right;
+    color: rgba(254,181,36,1);
+   
+}
+.name{
+    font-size: 18px;
+    color: rgba(66,66,91,1);
+}
+.banji{
+    font-size: 12px;
+    color: rgba(159,159,172,1);
+}
+.detail{
+    font-size: 18px;
+    color: rgba(0,165,237,1);
+    background-color: #ffffff; /* Green */
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px 39% 14px;
+    outline: none;
+    text-align: center;
+}
+.footer{
+    background-color: #ffffff;
+    height: 56px;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    z-index:999;
+    display: flex;
+    align-items: center;
+    margin-left: 0!important;
+}
+.navigation{
+    display:inline;
+    float: left;
+    margin-left: 12%;
+    width: 21%;
+}
+
+/*导航栏设置*/
+*{margin:0;padding:0}
+li {list-style-type:none;}
+ul {list-style:none;}
+ul li{margin:0;padding:0}
+a:hover, a:active { outline:none; }
+a{color:#1191C3; text-decoration:none;}
+/*page*/
+.page{ text-align:left; background:rgba(0,165,237,1);
+    height:30px;line-height:30px;width:100%;
+    display:-webkit-box;
+    padding-top: 1rem;
+    padding-bottom: 1rem}
+.page li{-webkit-box-flex:1; font-size:14px;
+    height:30px; display:block;
+    line-height:30px;
+    color:rgba(254,255,255,1);
+    text-align:center;  }
+.page li a{ color:#fff; display:block;height:30px;line-height:30px;}
+.page a.active{opacity: 1 !important;font-weight: bold;color:#fff;border-bottom:3px solid #fff;height:28px;font-size:18px; padding-bottom: 1rem }
+
+/*活动详情页面*/
+.details_title{
+    font-size: 14px;
+    margin-top: 1rem;
+    font-family:Noto Sans CJK SC
+}
+.details_content{
+    font-size: 12px;
+    color: rgba(159,159,172,1);
+    margin-top: 5px;
+}
+.details_join{
+    background-color: rgba(0,165,237,1);
+    width: 100%;
+    height:53px;
+    font-size: 23px;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+.details_join2{
+    background-color: rgba(171,171,182,1);
+    width: 100%;
+    height:53px;
+    font-size: 23px;
+    color: #ffffff;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+
+/*查看组员联系方式*/
+.find_phone{
+    background-color: #ffffff;
+    width: 70%;
+    height:46px;
+    outline:none;
+    border-radius:4rem;
+    color: rgba(66,66,91,1);
+    border:1px solid rgba(171,171,182,1);
+    padding:auto 2rem;
+    font-size: 18px;
+    text-align: center;
+    display:block;
+    margin:2rem auto 1rem auto;
+}
+.find_insert{
+    background-color: rgba(0,165,237,1);
+    width: 70%;
+    height:46px;
+    outline:none;
+    border-radius:4rem;
+    color: white;
+    border:none;
+    padding:auto 2rem;
+    font-size: 18px;
+    text-align: center;
+    display:block;
+    margin:1rem auto 3rem auto;
+}
+/*捎句话给发起人页面*/
+.join{
+    background-color: #F8F8F8;
+    margin: 1rem;
+}
+.join_title{
+    font-size: 18px;
+    font-weight: bold;
+    color:rgba(66,66,91,1)
+}
+.join_content {
+    font-size: 14px;
+    font-family: Noto Sans CJK SC;
+    color: rgba(66, 66, 91, 1);
+    letter-spacing: 0px;
+    border: 1px solid #CEE8FF;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 1rem;
+    outline: none;
+    height:37px;
+    text-indent:8px;
+    margin-bottom: 1rem;
+}
+.join_message{
+    color: rgba(159,159,172,1);
+    font-size: 10px;
+}
+.join_insert{
+    background-color: rgba(0,165,237,1);
+    width: 70%;
+    height:46px;
+    border:none;
+    outline:none;
+    border-radius:2rem;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display:block;
+    margin:5rem auto 5rem auto;
+}
+/* 个人中心 */
+@font-face {
+  font-family: 'iconfont';  /* project id 1136705 */
+  src: url('https://at.alicdn.com/t/font_1136705_ml56xibdlyf.eot');
+  src: url('https://at.alicdn.com/t/font_1136705_ml56xibdlyf.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1136705_ml56xibdlyf.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1136705_ml56xibdlyf.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1136705_ml56xibdlyf.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1136705_ml56xibdlyf.svg#iconfont') format('svg');
+}
+
+.background-style {
+  position: fixed;
+  top: 0;
+  left: -5px;
+  width: calc(100% + 10px);
+  height: 80pt;
+  background: #00a5ed;
+  /* border-radius: 50% / 40pt; */
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+}
+
+/*
+ * 头部，包括头像、姓名、班级
+ */
+.user-info {
+  position: relative;
+  z-index: 1;
+  margin: 46pt 0 0;
+  text-align: center;
+}
+
+.info-avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.info-name {
+  margin: 10px 0 0;
+  font-size: 23px;
+  color: rgba(66, 66, 91, 1);
+}
+
+.info-class {
+  height: 27px;
+  margin: 4px 0 0;
+  color: rgba(159, 159, 172, 1);
+  font-size: 18px;
+}
+
+/*
+ * 菜单项
+ */
+.menu-list {
+  width: 100%;
+  margin: 28pt 0 56pt;
+}
+
+.menu-item {
+  /* width: 100%; */
+  height: 52px;
+  line-height: 52px;
+  padding: 0 12px;
+  font-size: 18px;
+  color: rgba(66, 66, 91, 1);
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.menu-item>span {
+  float: left;
+}
+
+.menu-item::after {
+  display: block;
+  float: right;
+  font-family: 'iconfont';
+  content: '\e627';
+}
+
+.menu-item::before {
+  display: block;
+  float: left;
+  width: 19px;
+  height: 19px;
+  margin: 16.5px 14px 0 0;
+  content: ' ';
+}
+
+.menu-mycreate::before {
+  background: url('${ctx}//imgs/launch.png') top left/19px no-repeat;
+}
+
+.menu-mysign::before {
+  background: url('${ctx}//imgs/join.png') top left/16px 17px no-repeat;
+}
+
+/*我申请的活动状态显示*/
+.state1{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(67,133,255,1);
+    padding:1rem;
+    margin-top: 2rem;
+    border-radius:1rem 1rem 0 0;
+}
+.state2{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(254,181,36,1);
+    padding:1rem;
+    margin-top: 2rem;
+    border-radius:1rem 1rem 0 0;
+}
+.state3{
+    font-size: 18px;
+    color: #ffffff;
+    background-color: rgba(255,32,118,1);
+    padding:1rem;
+    margin-top: 2rem;
+    border-radius:1rem 1rem 0 0;
+}
+
+/* 我发布的活动页面 */
+.state_empty{
+	 width: 100%;
+   margin-top: 2rem; 
+}
+.message_empty1{
+	font-size:18px;
+    font-weight: bold;
+    color:#42425B;
+    margin-top: 2rem;
+     text-align:center;
+}
+.message_empty2{
+	font-size:18px;
+    font-weight: bold;
+    color:#9F9FAC;
+    margin-top: 1rem;
+    text-align:center;
+     margin-bottom: 3rem;
+}
+
+
+

@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background-color: rgba(0,165,237,1);
+    width: 100%;
+    margin: 0;
+    padding: 2rem;
+}
+a{
+    text-decoration:none;
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: bold;
+}
+input,
+textarea {
+    font-size: 14px !important;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.launch{
+    background-color: #F8F8F8;
+}
+/* .content{
+    margin: 1rem ;
+    padding-bottom:1rem;
+} */
+
+.content {
+    /* margin: 1rem ; */
+    margin: 20px 12px 0;
+}
+.launch_title{
+    font-size:18px;
+    font-weight: bold;
+}
+.message_launch{
+   /*  margin: 1rem auto 1rem; */
+    margin: 16px auto 8px;
+    font-size: 14px;
+    color: rgba(159,159,172,1);
+}
+.launch_content{
+    font-family: Arial;
+    border-radius:4px;
+    border:1px solid #CEE8FF;
+    color:rgba(66,66,91,1);
+    background-color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+    height:37px;
+    outline:none;
+    /* 首行缩进 */
+    text-indent:8px;
+}
+
+#textarea {
+    height: 157px;
+}
+
+.launch_select{
+    border-radius:4px;
+    border:1px solid #CEE8FF;
+    color:rgba(66,66,91,1);
+    font-size: 14px;
+    width: 100%;
+    outline:none;
+    height:37px;
+    background:url(../imgs/seclet.png) no-repeat #ffffff;
+    background-position: right 1rem center;
+    background-size: auto 60%;
+    display: flex;
+    align-items: center;
+     /* 首行缩进 */
+    text-indent:8px;
+}
+
+.launch_level {
+    display: flex;
+}
+
+.launch_level>div {
+    flex: 1;
+}
+
+.launch_level>div:first-child {
+    margin: 0 12px 0 0;
+}
+
+
+.launch_date{
+    background:url(../imgs/date.png) no-repeat #ffffff;
+    background-position: right 1rem center;
+    background-size: auto 60%;
+}
+
+.launch_backgroundimg{
+  /*   padding:13rem 1.5rem; */
+   height:225px;
+    border-radius:4px;
+    border:1px solid #CEE8FF;
+    background-color: #ffffff;
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+#preview {
+    display: inline-block;
+    position: relative;
+    background-image: url(../imgs/img.png);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position:center;
+}
+
+#file {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 5;
+}
+
+
+.launch_submit{
+    background-color: rgba(0,165,237,1);
+    width: 70%;
+    height:46px;
+    /* border:1px solid rgba(171,171,182,1); */
+    border:none;
+    outline:none;
+    border-radius:2rem;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    display:block;
+    margin: 57pt auto 131pt;
+  /*   box-shadow: 0px 6px 10px 0px rgba(0, 165, 237, 0.5); */
+}
+
+::-webkit-input-placeholder {
+    color: #999;
+    font-size: 10px;
+}
+
+.footer{
+    background-color: #ffffff;
+    height: 56px;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    z-index:999;
+    display: flex;
+    align-items: center;
+    margin-left: 0!important;
+}
+.navigation{
+    display:inline;
+    float: left;
+    margin-left: 12%;
+    width: 21%;
+}
+.launch-message{
+    color: rgba(159,159,172,1);
+    font-size: 10px;
+    margin: 4pt 0 0 0;
+}
+/* 时间选择的样式调整 */
+.rolldate-container {
+    font-size: 18px !important;
+    color: #333;
+    text-align: center;
+}
+.rolldate-container header {
+    position: relative;
+    height: 50px !important;
+    line-height: 50px !important;
+    background: rgba(218, 218, 218, .7) !important;
+    font-size: 16px!important;
+    border-bottom: 0px !important;
+}
+
+.rolldate-container .rolldate-panel {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 15rem !important;
+    z-index: 101;
+    background: #fff;
+    -webkit-animation-duration: 300ms;
+    animation-duration: 300ms;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.rolldate-container .rolldate-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 15px;
+    color: #666;
+    font-size: 18px!important;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.rolldate-container .rolldate-wrapper > input {
+    -webkit-box-flex: 1 !important;
+    -webkit-flex: 1 !important;
+    -ms-flex: 1 !important;
+    flex: 1 !important;
+    height: 200px !important;
+    line-height: 40px !important;
+    overflow: hidden !important;
+    -webkit-flex-basis: -8e !important;
+    -ms-flex-preferred-size: -8e !important;
+    flex-basis: -8e !important;
+    width: 1% !important;
+}
+
+.rolldate-container .rolldate-wrapper li {
+    height: 40px !important;
+}
+
